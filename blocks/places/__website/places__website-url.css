@@ -1,0 +1,22 @@
+.places__website-url {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: white;
+    margin: 0;
+}
+
+.places__website-url:hover {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+@media all and (min-width:320px) and (max-width:767px) {
+    .places__website-url {
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+}
