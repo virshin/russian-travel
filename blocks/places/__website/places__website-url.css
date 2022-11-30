@@ -10,7 +10,7 @@
 }
 
 .places__website-url:hover {
-    color: rgba(255, 255, 255, 0.8)
+    color: rgba(255, 255, 255, 0.8);
 }
 
 @media all and (min-width:320px) and (max-width:767px) {
