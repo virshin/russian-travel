@@ -1,4 +1,4 @@
-.places__place {
+.place {
   width: 100%;
   display: grid;
   grid-template-columns: fit-content(460px) 1fr;
@@ -10,20 +10,19 @@
   padding-bottom: 80px;
 }
 
-.places__place:last-child {
+.place:last-child {
   padding-bottom: 0;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .places__place {
+  .place {
     grid-template-columns: fit-content(440px) 1fr;
     column-gap: 32px;
-    padding-bottom: 80px;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .places__place {
+  .place {
     grid-template-columns: fit-content(340px) 1fr;
     column-gap: 28px;
     padding-bottom: 71px;
@@ -31,9 +30,9 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
-  .places__place {
+  .place {
     grid-template-columns: fit-content(320px);
-    row-gap: 31.5px;
+    row-gap: 32px;
     grid-template-areas:
       "title"
       "website"

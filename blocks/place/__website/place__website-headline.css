@@ -1,20 +1,18 @@
-.places__website-url {
+.place__website-headline {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-decoration-line: underline;
-  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
   margin: 0;
-}
-
-.places__website-url:hover {
-  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 12px;
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
-  .places__website-url {
+  .place__website-headline {
     padding-left: 16px;
     padding-right: 16px;
   }

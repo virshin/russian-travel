@@ -15,6 +15,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .intro {
+    max-width: 720px;
     padding-top: 88px;
   }
 }
